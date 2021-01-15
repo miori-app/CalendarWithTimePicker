@@ -13,16 +13,20 @@ protocol CalendarViewControllerDeleagte {
 
 class CalendarTimeViewController: UIViewController{
     
+    // MARK: - 이전 달로 이동
     @IBAction func didTapPreview(_ sender: Any) {
         currentMonthIndex -= 1
         
+        // index 가 음수면, 월은 12월로, 연도도 -1
         if currentMonthIndex < 0 {
             currentMonthIndex = 11
             currentYear -= 1
         }
         
+        // 달력에 연도와 달 표기
+        //selectedDateLabel.text = "\(months[currentMonthIndex]) \(currentYear)"
+
         
-        selectedDateLabel.text = "\(months[currentMonthIndex]) \(currentYear)"
         //for leap year, make february month of 29 days
         if currentMonthIndex == 1 {
             
@@ -49,6 +53,7 @@ class CalendarTimeViewController: UIViewController{
         }
         
         selectedDateLabel.text = "\(months[currentMonthIndex]) \(currentYear)"
+    
         
         //for leap year, make february month of 29 days
         if currentMonthIndex == 1 {
@@ -231,16 +236,16 @@ extension CalendarTimeViewController : UICollectionViewDelegate, UICollectionVie
             cell.dateLabel.textColor = .black
             cell.dateLabel.text="\(calcDate)"
             
-            if let date = String.dateFormatter.date(from: "\(currentYear)-\(currentMonthIndex+1)-\(calcDate)") {
-                
-                
-                cell.isUserInteractionEnabled = true
-                cell.backGroundImgView.isHidden = true
-                cell.dateLabel.textColor = .black
-                //cell.eventView.isHidden = true
-                
-                
-            }
+            //let date = String.dateFormatter.date(from: "\(currentYear)-\(currentMonthIndex+1)-\(calcDate)")
+            
+            
+            cell.isUserInteractionEnabled = true
+            cell.backGroundImgView.isHidden = true
+            cell.dateLabel.textColor = .black
+            //cell.eventView.isHidden = true
+            
+            
+            
             
             
             // If you want to disable the previous dates of current month
