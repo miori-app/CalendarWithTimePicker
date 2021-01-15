@@ -40,8 +40,8 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0b3-3A-LdA" userLabel="Header">
                             <rect key="frame" x="0.0" y="0.0" width="374" height="151.5"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="✔  경기시작 시간 선택 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-FQ-bet">
-                                    <rect key="frame" x="110.5" y="17" width="153" height="19.5"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="🎯  날짜와 시간 선택 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-FQ-bet">
+                                    <rect key="frame" x="117.5" y="17" width="139" height="19.5"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                     <color key="textColor" red="0.066666666669999999" green="0.27058823529999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>

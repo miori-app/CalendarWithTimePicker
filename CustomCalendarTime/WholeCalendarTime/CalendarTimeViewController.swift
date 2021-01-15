@@ -24,7 +24,7 @@ class CalendarTimeViewController: UIViewController{
         }
         
         // 달력에 연도와 달 표기
-        //selectedDateLabel.text = "\(months[currentMonthIndex]) \(currentYear)"
+        selectedDateLabel.text = "\(months[currentMonthIndex]) \(currentYear)"
 
         
         //for leap year, make february month of 29 days
