@@ -16,49 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-iS-85V">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-iS-85V">
+                                <rect key="frame" x="179" y="500" width="56" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Go 😀">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="didTapCalendar:" destination="nbM-h5-bkv" eventType="touchUpInside" id="hlL-29-t01"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="externaldrive.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hP5-n1-viN">
-                                <rect key="frame" x="86" y="181" width="241" height="125.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="f0D-X4-g4E"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tortoise.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Smz-84-AE5">
-                                <rect key="frame" x="87" y="718.5" width="240" height="124"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="STl-WC-xYT"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFk-cs-kIT">
+                                <rect key="frame" x="20" y="336.5" width="374" height="143.5"/>
+                                <string key="text">CustomCalendar  and
+Time Picker View</string>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="srV-Fx-pR1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
-                            <constraint firstItem="hP5-n1-viN" firstAttribute="top" secondItem="srV-Fx-pR1" secondAttribute="top" constant="135" id="1Q7-sh-KgF"/>
-                            <constraint firstItem="hP5-n1-viN" firstAttribute="leading" secondItem="srV-Fx-pR1" secondAttribute="leading" constant="87" id="Mp6-ze-2Kq"/>
-                            <constraint firstItem="srV-Fx-pR1" firstAttribute="trailing" secondItem="Smz-84-AE5" secondAttribute="trailing" constant="87" id="QBG-Y4-NUx"/>
-                            <constraint firstItem="srV-Fx-pR1" firstAttribute="bottom" secondItem="Smz-84-AE5" secondAttribute="bottom" constant="19" id="gUZ-yi-Km8"/>
-                            <constraint firstItem="Smz-84-AE5" firstAttribute="leading" secondItem="srV-Fx-pR1" secondAttribute="leading" constant="87" id="gz0-yA-zQd"/>
-                            <constraint firstItem="srV-Fx-pR1" firstAttribute="trailing" secondItem="hP5-n1-viN" secondAttribute="trailing" constant="87" id="xHa-3H-jAY"/>
+                            <constraint firstItem="lFk-cs-kIT" firstAttribute="leading" secondItem="srV-Fx-pR1" secondAttribute="leading" constant="20" id="Gk1-YE-JYP"/>
+                            <constraint firstItem="srV-Fx-pR1" firstAttribute="trailing" secondItem="lFk-cs-kIT" secondAttribute="trailing" constant="20" id="Hbo-8Z-HmR"/>
+                            <constraint firstItem="vbn-iS-85V" firstAttribute="top" secondItem="lFk-cs-kIT" secondAttribute="bottom" constant="20" id="gwA-eq-KFw"/>
+                            <constraint firstItem="vbn-iS-85V" firstAttribute="centerX" secondItem="jRL-h6-XeV" secondAttribute="centerX" id="pFl-po-O5W"/>
+                            <constraint firstItem="vbn-iS-85V" firstAttribute="centerY" secondItem="jRL-h6-XeV" secondAttribute="centerY" constant="70" id="uQ8-Fl-5Q3"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="reD-eU-Sdw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-377" y="90"/>
+            <point key="canvasLocation" x="-378.26086956521743" y="89.732142857142847"/>
         </scene>
     </scenes>
     <resources>
-        <image name="externaldrive.fill.badge.plus" catalog="system" width="128" height="91"/>
-        <image name="tortoise.fill" catalog="system" width="128" height="66"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -13,9 +13,6 @@
 		3DBF514B25B031AF0008AC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF514925B031AF0008AC26 /* Main.storyboard */; };
 		3DBF514D25B031B00008AC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF514C25B031B00008AC26 /* Assets.xcassets */; };
 		3DBF515025B031B00008AC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF514E25B031B00008AC26 /* LaunchScreen.storyboard */; };
-		3DBF515B25B031B00008AC26 /* CustomCalendarTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF515A25B031B00008AC26 /* CustomCalendarTimeTests.swift */; };
-		3DBF516625B031B00008AC26 /* CustomCalendarTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF516525B031B00008AC26 /* CustomCalendarTimeUITests.swift */; };
-		3DBF518625B090490008AC26 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF518525B090490008AC26 /* HeaderView.swift */; };
 		3DBF519A25B0BA5C0008AC26 /* CalendarTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF519825B0BA5C0008AC26 /* CalendarTimeViewController.swift */; };
 		3DBF519B25B0BA5C0008AC26 /* CalendarTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF519925B0BA5C0008AC26 /* CalendarTimeViewController.xib */; };
 		3DBF51A425B0E3EF0008AC26 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF51A325B0E3EF0008AC26 /* String.swift */; };
@@ -52,12 +49,7 @@
 		3DBF514F25B031B00008AC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DBF515125B031B00008AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DBF515625B031B00008AC26 /* CustomCalendarTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCalendarTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBF515A25B031B00008AC26 /* CustomCalendarTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarTimeTests.swift; sourceTree = "<group>"; };
-		3DBF515C25B031B00008AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DBF516125B031B00008AC26 /* CustomCalendarTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCalendarTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBF516525B031B00008AC26 /* CustomCalendarTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarTimeUITests.swift; sourceTree = "<group>"; };
-		3DBF516725B031B00008AC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DBF518525B090490008AC26 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3DBF519825B0BA5C0008AC26 /* CalendarTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTimeViewController.swift; sourceTree = "<group>"; };
 		3DBF519925B0BA5C0008AC26 /* CalendarTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarTimeViewController.xib; sourceTree = "<group>"; };
 		3DBF51A325B0E3EF0008AC26 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -96,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				3DBF514225B031AF0008AC26 /* CustomCalendarTime */,
-				3DBF515925B031B00008AC26 /* CustomCalendarTimeTests */,
-				3DBF516425B031B00008AC26 /* CustomCalendarTimeUITests */,
 				3DBF514125B031AF0008AC26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,27 +115,8 @@
 				3DBF514C25B031B00008AC26 /* Assets.xcassets */,
 				3DBF514E25B031B00008AC26 /* LaunchScreen.storyboard */,
 				3DBF515125B031B00008AC26 /* Info.plist */,
-				3DBF518525B090490008AC26 /* HeaderView.swift */,
 			);
 			path = CustomCalendarTime;
-			sourceTree = "<group>";
-		};
-		3DBF515925B031B00008AC26 /* CustomCalendarTimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DBF515A25B031B00008AC26 /* CustomCalendarTimeTests.swift */,
-				3DBF515C25B031B00008AC26 /* Info.plist */,
-			);
-			path = CustomCalendarTimeTests;
-			sourceTree = "<group>";
-		};
-		3DBF516425B031B00008AC26 /* CustomCalendarTimeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3DBF516525B031B00008AC26 /* CustomCalendarTimeUITests.swift */,
-				3DBF516725B031B00008AC26 /* Info.plist */,
-			);
-			path = CustomCalendarTimeUITests;
 			sourceTree = "<group>";
 		};
 		3DBF51A225B0E3DD0008AC26 /* Extension */ = {
@@ -311,7 +282,6 @@
 				3DBF51A425B0E3EF0008AC26 /* String.swift in Sources */,
 				3DBF514825B031AF0008AC26 /* ViewController.swift in Sources */,
 				3DBF51AC25B0E3FB0008AC26 /* Date.swift in Sources */,
-				3DBF518625B090490008AC26 /* HeaderView.swift in Sources */,
 				3DBF51B325B0E4560008AC26 /* DateCollectionViewCell.swift in Sources */,
 				3DBF514425B031AF0008AC26 /* AppDelegate.swift in Sources */,
 				3DBF519A25B0BA5C0008AC26 /* CalendarTimeViewController.swift in Sources */,
@@ -324,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBF515B25B031B00008AC26 /* CustomCalendarTimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBF516625B031B00008AC26 /* CustomCalendarTimeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
