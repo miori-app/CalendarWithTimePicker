@@ -39,7 +39,6 @@ class CalendarTimeViewController: UIViewController{
         }
         //end
         
-        //leftButton.isEnabled = !(currentMonthIndex == presentMonthIndex && currentYear == presentYear)// Disable left button if user is on current month
         firstWeekDayOfMonth = getFirstWeekDay()
         collectionView.reloadData()
     }
