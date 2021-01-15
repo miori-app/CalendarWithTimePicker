@@ -7,6 +7,11 @@
 
 import UIKit
 
+//MARK: - 코너마다 radius 적용
+/*
+ 각 코너마다 (.topLeft, .topRight, .bottomLeft, .bottomRight )
+ radius 를 적용시킬수 있는 uiView extension
+ */
 extension UIView {
     
     func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
