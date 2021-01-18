@@ -8,7 +8,6 @@ ios로 custom calendar and time picker를 만들었다.
 - ios 13 or above
 
 ## tech 🛠
-
 - storyboard 
   - view controller UI를 위해 
   - segue는 따로 사용하지 않음
@@ -18,7 +17,6 @@ ios로 custom calendar and time picker를 만들었다.
 - swift5
 
 ## file structure 📂
-
 - WholeCalendarTime
   - CalendarTimeViewController.swift
   - CalendarTimeViewController.xib
@@ -31,7 +29,6 @@ ios로 custom calendar and time picker를 만들었다.
   - UIView.swift
   
 ## usage 💁‍♂️
-
 1. 달력을 띄우고 싶은 view 안에, 함수를 추가해 줍니다.
     - 예를 들어, 버튼을 눌렀을 떄 달력을 띄우게 된다면, 아래와 같이 함수를 사용가능합니다.
     - 이때, modalPresentaionStyle을 .overCurrentContext로 하였습니다.
@@ -53,7 +50,6 @@ ios로 custom calendar and time picker를 만들었다.
     - 이 부분에서 date의 label 속성등을 변경 할 수 있습니다.
 
 ## Screen shot 📸
-
 |mainscreen|calendar select|next month|previous month|time picker|time select|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/46439995/104694091-06ea0e00-574e-11eb-8ba9-f4fdc2cbae32.png" width="200" alt="main screen" />|<img src="https://user-images.githubusercontent.com/46439995/104694359-6e07c280-574e-11eb-9821-436f1c589429.png" width="200" alt="calendar selcet" />|<img src="https://user-images.githubusercontent.com/46439995/104694386-74963a00-574e-11eb-93f6-4ba278d19cdd.png" width="200" alt="next month" />|<img src="https://user-images.githubusercontent.com/46439995/104694407-7c55de80-574e-11eb-8ea7-896b8bcba28d.png" width="200" alt="pre month" />|<img src="https://user-images.githubusercontent.com/46439995/104694450-88da3700-574e-11eb-9471-6d3a096f5306.png" width="200" alt="time picker" />|<img src="https://user-images.githubusercontent.com/46439995/104829917-27d07180-58bc-11eb-9ae5-3331692f4340.png" width="200" alt="time select" />|
