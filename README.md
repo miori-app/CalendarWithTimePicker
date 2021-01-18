@@ -29,6 +29,28 @@ ios로 custom calendar and time picker를 만들었다.
   - String.swift
   - Date.swift
   - UIView.swift
+  
+## usage 💁‍♂️
+
+1. 달력을 띄우고 싶은 view 안에, 함수를 추가해 줍니다.
+    - 예를 들어, 버튼을 눌렀을 떄 달력을 띄우게 된다면, 아래와 같이 함수를 사용가능합니다.
+    - 이때, modalPresentaionStyle을 .overCurrentContext로 하였습니다.
+    - 만약, calendar의 backgroundColor를 변경하고 싶다면,```CalendarTimeViewController.xib``` 에서 BackGround 의 color를 변경해주면 됩니다. (opacity도 가능 : alpha 사용)
+    
+   ```
+      @IBAction func didTapCalendar(_ sender: Any) {
+        let calendarView = CalendarTimeViewController()
+        calendarView.modalPresentationStyle = .overCurrentContext
+        self.present(calendarView, animated: true, completion: nil)
+    }
+   ```
+
+   
+2. date selected 되는 원의 color를 바꾸고 싶다면, 이미지 set을 추가하셔야 합니다.
+    - 추후에 view 로 수정 예정
+  
+3. date는 ```DateCollectionViewCell```로 관리 합니다.
+    - 이 부분에서 date의 label 속성등을 변경 할 수 있습니다.
 
 ## Screen shot 📸
 
