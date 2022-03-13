@@ -34,7 +34,7 @@ ios로 custom calendar and time picker를 만들었다.
     - 이때, modalPresentaionStyle을 .overCurrentContext로 하였습니다.
     - 만약, calendar의 backgroundColor를 변경하고 싶다면,```CalendarTimeViewController.xib``` 에서 BackGround 의 color를 변경해주면 됩니다. (opacity도 가능 : alpha 사용)
     
-   ```
+   ```swift
       @IBAction func didTapCalendar(_ sender: Any) {
         let calendarView = CalendarTimeViewController()
         calendarView.modalPresentationStyle = .overCurrentContext
